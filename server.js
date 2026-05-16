@@ -31,7 +31,7 @@ app.use(express.static("public"));
 // =========================
 
 mongoose.connect(
-  "mongodb://shafeeq0810_db_user:Shafeeq2003@ac-fhlew8n-shard-00-00.uiz8w2y.mongodb.net:27017,ac-fhlew8n-shard-00-01.uiz8w2y.mongodb.net:27017,ac-fhlew8n-shard-00-02.uiz8w2y.mongodb.net:27017/?ssl=true&replicaSet=atlas-x3xoc7-shard-0&authSource=admin&appName=Cluster0"
+  "mongodb://user_ID:<Password>@ac-fhlew8n-shard-00-00.uiz8w2y.mongodb.net:27017,ac-fhlew8n-shard-00-01.uiz8w2y.mongodb.net:27017,ac-fhlew8n-shard-00-02.uiz8w2y.mongodb.net:27017/?ssl=true&replicaSet=atlas-x3xoc7-shard-0&authSource=admin&appName=Cluster0"
 )
 .then(() => console.log("MongoDB Connected"))
 .catch((err) => console.log(err));
